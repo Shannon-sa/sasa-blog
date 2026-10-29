@@ -1,0 +1,20 @@
+:root {
+    --primary: #b89b8a;
+    --secondary: #d4b9aa;
+    --textColor: #4a443f;
+    --bg: #fffbf7;
+    --entry: #ffffff;
+    --highlight: #f7ede6;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--textColor);
+}
+.page-header, .post-title, .post-entry h2 {
+    color: var(--primary);
+}
+.tag a {
+    background: var(--highlight);
+    color: var(--primary);
+}
