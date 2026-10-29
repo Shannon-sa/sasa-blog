@@ -1,0 +1,47 @@
+baseURL: ""
+languageCode: zh-cn
+title: Saawon
+paginate: 12
+
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "欢迎来到我的手账小世界"
+    Content: "记录拼贴、分享素材、慢慢积攒温柔✨ | 月度翻翻看 · 拼贴教程 · 免费打印素材"
+  ShowReadingTime: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+  enableLightbox: true
+  lightboxThumbnail: original
+
+menu:
+  main:
+    - name: 首页
+      url: /
+      weight: 1
+    - name: 月度翻翻看
+      url: /monthly/
+      weight: 2
+    - name: 拼贴教程
+      url: /tutorial/
+      weight: 3
+    - name: 文具图鉴
+      url: /stationery/
+      weight: 4
+    - name: 免费素材
+      url: /free-material/
+      weight: 5
+    - name: 关于我 & 投稿
+      url: /about/
+      weight: 6
